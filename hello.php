@@ -1,3 +1,4 @@
 <?php
-str_repeat("Tekst in een variable", 5);
+$tekst= "de variable is tekst".PHP_EOL ;
+echo str_repeat($tekst, 5);
 ?>
